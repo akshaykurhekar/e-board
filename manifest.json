@@ -1,9 +1,6 @@
 {
-  "short_name": "e-board",
+  "short_name": "e-Board",
   "name": "Online board",
-  "version": "1.0.2",
-  "manifest_version": "2",
-    "description": "online sketch pad ",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,11 +18,6 @@
       "sizes": "512x512"
     }
   ],
-  "browser_action": {
-    "default_icon": "logo512.png",
-    "default_popup": "index.html",
-    "default_title": "Open the page"
-},
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
