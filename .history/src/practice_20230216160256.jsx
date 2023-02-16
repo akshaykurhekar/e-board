@@ -107,7 +107,7 @@ function Canvas(){
        
         <ReactSketchCanvas
           ref={canvasRef}
-          width="100em" height="45.9rem"
+          width="100em" height="45.7rem"
           strokeWidth={strokeWidth}
           strokeColor={color}
           canvasColor={Backcolor}        

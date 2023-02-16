@@ -78,7 +78,7 @@ function Canvas(){
       <div>         
           
     <Navbar expand="lg">
-    <div className="hidden-mobile">
+    <div className="media">
         <Button className="btn btn-outline-success" onClick={()=>penHandler() }>✏️ Pen</Button>
         <Button className="btn btn-outline-cyan" onClick={()=>eraserHandler() }>Eraser</Button>
     </div>
@@ -87,7 +87,7 @@ function Canvas(){
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
        
-        <div className="text-center pl-5">
+        <div className="text-center p-3 ">
           
           Board Color <input className="m-2" type="color" value={Backcolor} onInput={(e)=>setBackColor(e.target.value) } />     
          PenColor <input type="color" className="m-2" value={color} onInput={(e)=>eventHandel(e) } />
@@ -107,7 +107,7 @@ function Canvas(){
        
         <ReactSketchCanvas
           ref={canvasRef}
-          width="100em" height="45.9rem"
+          width="100em" height="43.87rem"
           strokeWidth={strokeWidth}
           strokeColor={color}
           canvasColor={Backcolor}        
