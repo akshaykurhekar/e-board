@@ -8,7 +8,7 @@ function Canvas(){
 
     const canvasRef = useRef(null);
     
-    const [color,setColor]=useState('#ffffff');
+    const [color,setColor]=useState('#EC9418');
     const [Backcolor,setBackColor]=useState('#000000');
     const [strokeWidth,setStrokeWidth]=useState('2');
     const [eraseWidth,setEraseWidth]=useState(35);

@@ -4,7 +4,7 @@ body{
 input{
     /* border-radius: 50%; */
     height:1.5rem;
-    color: #ffffff;
+    color: rgb(36, 5, 5);
 }
 
 .media{
